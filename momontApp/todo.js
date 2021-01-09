@@ -6,7 +6,7 @@ const TODO_LS='toDos';
 let toDos = [];
 let idCounts = 1;
 function deleteToDo(e){
-    const btn = e.target;
+    const btn = e.target; 
     const li = btn.parentNode;
     toDoList.removeChild(li);
     const cleanToDos = toDos.filter(e=>{

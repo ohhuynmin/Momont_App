@@ -12,7 +12,6 @@ function paintImage(imgNumber){
 function genNumber(){
     return number = Math.floor((Math.random()*IMG_NUMBER))+1;
 }
-
 function init(){
     const randomNumber = genNumber();
     paintImage(randomNumber);

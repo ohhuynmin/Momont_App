@@ -12,7 +12,7 @@ body .js-clock{
 .form,.greetings{
     display: none;
 }
-.showing{
+.showing{ 
     display: block;
 }
 @keyframes fadeIn{
