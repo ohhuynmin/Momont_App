@@ -9,7 +9,7 @@ function getTime(){
     clockTitle.innerHTML = `${hour<10?`0${hour}`:hour}:${
         minutes<10?`0${minutes}`:minutes}:${
         second<10 ? `0${second}`: second}`;
-        
+         
 }
 
 function init(){
